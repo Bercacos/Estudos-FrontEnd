@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS treino</title>
+    <!-- internal CSS -->
+    <style>
+        h3 {
+            color: green;
+            font-size: 100px;
+        }
+        p{
+            color: green
+        }
+    </style>
+    <!-- external CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lists.css">
+</head>
+<body>
+    <!-- inline CSS -->
+     <h2 style="color: blue;">Mudar com o inline</h2>
+     <h2> Esse não mudou!</h2>
+
+    <!-- Multiplas regras -->
+    <h2 style="color: purple; font-size: 80px; border-bottom: 5px solid brown;">Mudar cor e fonte</h2>
+ 
+    <!-- internal css -->
+    <h3> Mudar com o internal</h3>
+    <h3> Outro h3 com internal</h3>
+    <h3>A regra se mantém em todos</h3>
+
+    <!-- external CSS -->
+     <p>Esse texto foi alterado com CSS externo</p>
+     <h4>Esse tbm, mesmo de outra categoria</h4>
+
+     <!-- Ordem do CSS -->
+      <p style="color: wheat;">Esse texto não seguirá a regra do CSS externo</p>
+      <p style="color: gold;">Esse não seguirá a regra do CSS externo nem do internal</p>
+
+
+      <!-- CSS para lista outro arquivo css -->
+       <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+       </ul>
+</body>
+</html> 
